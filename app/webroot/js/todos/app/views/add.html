@@ -1,0 +1,17 @@
+<div class="jumbotron">
+  <h1>Add View</h1>
+  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/test">Back to Test!</a></p>
+  <span>
+    <input type="" type="number" ng-model="smd1" placeholder="1" />
+    <input type="" type="number" ng-model="smd2" placeholder="1" />
+  </span>
+  <span ng-repeat="c in currencies">
+    {{c}}
+  </span>
+  <p ng-model="res">{{res()}}</p>
+  <p><a class="btn btn-lg btn-success" ng-click="add()">Add</a></p>
+</div>

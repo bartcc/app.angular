@@ -1,0 +1,19 @@
+<div class="jumbotron">
+  <span>
+    <h1 ng-repeat="m in messages">Test View</h1>
+    <h2>{{text}}</h2>
+    <p class="lead">
+      <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+      Always a pleasssssure scaffolding your apps.
+    </p>
+    <p><a class="btn btn-lg btn-success" ng-href="#">Back Home!</a></p>
+    <input type="search" ng-model="text" placeholder="filter friends..." />
+  </span>
+  <div ng-controller="AddCtrl">
+    <span>
+      <input type="" type="number" ng-model="smd1" placeholder="1" />
+      <input type="" type="number" ng-model="smd2" placeholder="1" />
+    </span>
+    <p ng-model="res">Sum: {{res()}}</p>
+  </div>
+</div>
